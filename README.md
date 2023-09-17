@@ -55,5 +55,5 @@ Para utilizar o projeto apenas é necessário executar fazer o download do mesmo
 
 ## [Créditos](#sobre)
 
-Esse desafio foi feito pela [Coodesh](https://coodesh.com/) 
+Esse desafio foi disponibilizado pela [Coodesh](https://coodesh.com/) 
 
