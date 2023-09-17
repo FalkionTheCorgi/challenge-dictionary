@@ -1,11 +1,21 @@
 # Desafio Dicionário
 
-## Breve descrição
+## Sobre
 
-Esse desafio tem como objetivo, de maneira sussinta, criar um aplicativo que apresente diversas palavras que ao interagir com elas mostre o seu significado e sua forma de pronuncia
+- [Breve Descrição](#breve-descrição)
+- [Tecnologias](#tecnologias)
+- [Como Utilizo o Projeto?](#como-utilizo-o-projeto)
+- [Obrigatórios](#obrigatórios)
+- [Diferenciais](#diferenciais)
+- [Status](#status)
+- [Créditos](#créditos)
+
+## [Breve Descrição](#sobre)
+
+Esse desafio tem como objetivo, de maneira sucinta, criar um aplicativo que apresente diversas palavras que ao interagir com elas mostre o seu significado e sua forma de pronuncia
 caso exista.
 
-## Tecnologias 
+## [Tecnologias](#sobre)
 
 Esse aplicativo utilizou as seguintes tecnologias:
 
@@ -14,12 +24,13 @@ Esse aplicativo utilizou as seguintes tecnologias:
 - [Sqflite](https://pub.dev/packages/sqflite)
 - [Riverpod](https://pub.dev/packages/riverpod)
 - [Http](https://pub.dev/packages/http)
+- [WordsApi](https://www.wordsapi.com/)
 
-## Como utilizo o projeto?
+## [Como Utilizo o Projeto?](#sobre)
 
 Para utilizar o projeto apenas é necessário executar fazer o download do mesmo e executar no simuladorou dispositivo de sua preferência.
 
-## Obrigatórios
+## Obrigatórios(#sobre)
 
 - [x] Como usuário, devo ser capaz de visualizar uma lista de palavras com rolagem infinita
 - [x] Como usuário, devo ser capaz de visualizar uma palavra, significados e a fonética
@@ -31,14 +42,18 @@ Para utilizar o projeto apenas é necessário executar fazer o download do mesmo
 - [x] Seguir o wireframe para a página de listagem dos dados. Pode-se alterar a posição dos itens, mantendo as funcionalidades solicitadas.
     - ![wireframe](img/wireframe.png)
 
-## Diferencial
+## [Diferenciais](#sobre)
 
 - [ ] Implementar um tocador de audio.
 - [x] Utilizar alguma ferramenta de Injeção de Dependência.
 - [ ] Escrever Unit Tests ou E2E Test.
 - [ ] Implementar login com usuário e senha e associar os favoritos e histórico ao ID do usuário, salvando essa informação em banco de dados local ou remoto
 
-## Créditos
+## [Status](#sobre)
+
+- [ON] Status API
+
+## [Créditos](#sobre)
 
 Esse desafio foi feito pela [Coodesh](https://coodesh.com/) 
 
