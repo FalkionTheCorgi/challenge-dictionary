@@ -30,7 +30,7 @@ Esse aplicativo utilizou as seguintes tecnologias:
 
 Para utilizar o projeto apenas é necessário executar fazer o download do mesmo e executar no simuladorou dispositivo de sua preferência.
 
-## Obrigatórios(#sobre)
+## [Obrigatórios](#sobre)
 
 - [x] Como usuário, devo ser capaz de visualizar uma lista de palavras com rolagem infinita
 - [x] Como usuário, devo ser capaz de visualizar uma palavra, significados e a fonética
