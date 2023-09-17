@@ -28,7 +28,14 @@ Esse aplicativo utilizou as seguintes tecnologias:
 
 ## [Como Utilizo o Projeto?](#sobre)
 
-Para utilizar o projeto apenas é necessário executar fazer o download do mesmo e executar no simuladorou dispositivo de sua preferência.
+- Faça o download ou clone o projeto.
+- Adquira duas credenciais para acesso ao WordsApi, acesse o site para instruções de como fazer.
+- Na raiz do projeto crie um arquivo json com nome "env.local.json".
+- Crie duas chaves dentro desse json, uma com o nome "X_RapidApi_Key", e a outra com o nome "X_RapidAPI_Host".
+- Se todas as suas credenciais estiverem corretas, execute o projeto no terminal usando:
+```sh
+flutter run --dart-define-from-file=env.local.json
+```
 
 ## [Obrigatórios](#sobre)
 
