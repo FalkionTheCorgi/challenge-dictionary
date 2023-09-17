@@ -7,7 +7,6 @@
 - [Como Utilizo o Projeto?](#como-utilizo-o-projeto)
 - [Obrigatórios](#obrigatórios)
 - [Diferenciais](#diferenciais)
-- [Status](#status)
 - [Créditos](#créditos)
 
 ## [Breve Descrição](#sobre)
@@ -54,11 +53,7 @@ flutter run --dart-define-from-file=env.local.json
 - [ ] Implementar um tocador de audio.
 - [x] Utilizar alguma ferramenta de Injeção de Dependência.
 - [ ] Escrever Unit Tests ou E2E Test.
-- [ ] Implementar login com usuário e senha e associar os favoritos e histórico ao ID do usuário, salvando essa informação em banco de dados local ou remoto
-
-## [Status](#sobre)
-
-- [ON] Status API
+- [ ] Implementar login com usuário e senha e associar os favoritos e histórico ao ID do usuário, salvando essa informação em banco de dados local ou remoto.
 
 ## [Créditos](#sobre)
 
