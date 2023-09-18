@@ -17,7 +17,10 @@ class BottomBarState extends ConsumerState<BottomBar> {
     return BottomNavigationBar(
         items: const <BottomNavigationBarItem>[
           BottomNavigationBarItem(
-            icon: Icon(Icons.balance_outlined),
+            icon: ImageIcon(
+              AssetImage("assets/dictionary.png"),
+              color: Colors.white,
+            ),
             label: 'Word list',
           ),
           BottomNavigationBarItem(
