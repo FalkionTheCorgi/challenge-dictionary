@@ -6,7 +6,7 @@ import 'package:truckpag_challenge/database/MeaningRepository.dart';
 import 'package:truckpag_challenge/database/WordDescriptionRepository.dart';
 import 'package:truckpag_challenge/extension/Functions.dart';
 import 'package:truckpag_challenge/list/list_words/ListWordsViewModel.dart';
-import 'package:truckpag_challenge/list/list_words/detail_word/DetailWordViewModel.dart';
+import 'package:truckpag_challenge/list/detail_word/DetailWordViewModel.dart';
 import 'package:uuid/uuid.dart';
 
 import '../../../api/data/Word.dart';
@@ -47,14 +47,10 @@ class DetailWordState extends ConsumerState<DetailWord> {
     final obj = wordDescRepo.wordDescription.firstWhere((element) => element.word == widget.word);
     final meanings = meaningRepo.meaning.where((element) => element.fkWordDescription == obj.idMeaning).toList();
 
-    print(meanings);
-
     model.fillData(obj.pronunciation, meanings);
 
 
     }
-
-
 
     super.initState();
   }

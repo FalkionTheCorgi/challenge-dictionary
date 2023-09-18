@@ -2,8 +2,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:truckpag_challenge/api/data/Word.dart';
-import '../../../api/Api.dart';
-import '../../../database/data/MeaningData.dart';
+import '../../api/Api.dart';
+import '../../database/data/MeaningData.dart';
 
 final detailWordViewModel = ChangeNotifierProvider((ref) => DetailWordViewModel());
 
@@ -15,7 +15,6 @@ class DetailWordViewModel extends ChangeNotifier{
 
   _loadContent(){
     isLoadingContent = !isLoadingContent;
-    notifyListeners();
   }
 
   fillData(String pronunciation, List<MeaningData> meaning){
@@ -24,14 +23,12 @@ class DetailWordViewModel extends ChangeNotifier{
     for(var element in meaning){
       this.meaning.add(element.meaning);
     }
-    notifyListeners();
   }
 
   cleanVariables(){
     isLoadingContent = false;
     pronunciation = "";
     meaning.clear();
-    notifyListeners();
   }
 
   Future<dynamic> getWordDescription(word) async {
@@ -48,6 +45,7 @@ class DetailWordViewModel extends ChangeNotifier{
       }
 
       _loadContent();
+      notifyListeners();
 
       return response;
 
@@ -55,6 +53,7 @@ class DetailWordViewModel extends ChangeNotifier{
       pronunciation = '';
       meaning.clear();
       _loadContent();
+      notifyListeners();
       return false;
 
     }

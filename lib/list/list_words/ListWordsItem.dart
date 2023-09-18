@@ -2,7 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:truckpag_challenge/database/FavoriteRepository.dart';
 import 'package:truckpag_challenge/database/HistoryRepository.dart';
-import 'package:truckpag_challenge/list/list_words/detail_word/DetailWord.dart';
+
+import '../detail_word/DetailWord.dart';
 
 class CardWordItem extends ConsumerStatefulWidget {
 

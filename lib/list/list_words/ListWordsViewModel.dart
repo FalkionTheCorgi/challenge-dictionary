@@ -20,8 +20,6 @@ class ListWordsViewModel extends ChangeNotifier {
 
   Future<void> getWords() async {
 
-    resetPage();
-
     final file = rootBundle.loadString('assets/words_dictionary.json');
 
     try {

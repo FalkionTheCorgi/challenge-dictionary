@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-
 import '../../database/HistoryRepository.dart';
-import '../list_words/detail_word/DetailWord.dart';
+import '../detail_word/DetailWord.dart';
 
 class CardHistoryItem extends ConsumerWidget {
 

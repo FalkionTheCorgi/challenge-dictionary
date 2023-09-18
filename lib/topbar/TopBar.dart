@@ -14,16 +14,6 @@ class TopBarState extends ConsumerState<TopBar> {
         title: const Text(
           'Coodesh', style: TextStyle(color: Colors.white),),
         backgroundColor: Colors.black,
-        actions: [
-          IconButton(
-            icon: const Icon(
-              Icons.search_outlined,
-              color: Colors.white,
-            ),
-            onPressed: () {
-            },
-          ),
-        ],
         automaticallyImplyLeading: false);
   }
 }

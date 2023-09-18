@@ -23,7 +23,7 @@ class TabBarControllerState extends ConsumerState<TabBarController> {
     final bottomBarModel = ref.watch(bottomBarViewModel);
 
     return DefaultTabController(
-        length: 3,
+        length: 1,
         child: Scaffold(
           key: key,
           appBar: PreferredSize(

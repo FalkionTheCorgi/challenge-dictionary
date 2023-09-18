@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:truckpag_challenge/list/list_words/detail_word/DetailWord.dart';
 import 'package:truckpag_challenge/tabbar/TabBarController.dart';
 
 class AppRoutes {
