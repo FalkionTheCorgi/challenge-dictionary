@@ -50,7 +50,6 @@ class Results {
 
   factory Results.fromJson(Map<String, dynamic> json) {
     if (json.isNotEmpty) {
-      print(json['hasTypes']);
       return Results(
           definition: json.containsKey('definition') ? json['definition'] as String : "",
           partOfSpeech: json.containsKey('partOfSpeech') ? json['partOfSpeech'] as String : "",
