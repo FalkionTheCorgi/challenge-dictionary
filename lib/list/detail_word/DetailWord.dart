@@ -195,25 +195,6 @@ class DetailWordState extends ConsumerState<DetailWord> {
             ],
           )),
       const SizedBox(height: 16),
-      Row(
-          mainAxisSize: MainAxisSize.max,
-          mainAxisAlignment: MainAxisAlignment.start,
-          children: [
-            GestureDetector(
-              onTap: () {
-                Navigator.of(context).pop();
-              },
-              child: const Icon(Icons.play_arrow_outlined),
-            ),
-            /*const SizedBox(height: 8),
-                  const LinearProgressIndicator(
-                    value: 50.0,
-                    backgroundColor: Colors.lightBlueAccent,
-                    color: Colors.red,
-                    minHeight: 15,
-                  )*/
-          ]),
-      const SizedBox(height: 16),
       if (model.meaning.isNotEmpty)
         const Row(
             mainAxisSize: MainAxisSize.max,
