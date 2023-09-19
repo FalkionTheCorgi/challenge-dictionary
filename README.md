@@ -11,8 +11,8 @@
 
 ## [Breve Descrição](#sobre)
 
-Esse desafio tem como objetivo, de maneira sucinta, criar um aplicativo que apresente diversas palavras que ao interagir com elas mostre o seu significado e sua forma de pronuncia
-caso exista.
+Esse desafio tem como objetivo, de maneira sucinta, criar um aplicativo que apresente diversas palavras que ao interagir com elas mostre o seu significado e sua forma de pronuncia e significado
+caso existam.
 
 ## [Tecnologias](#sobre)
 
